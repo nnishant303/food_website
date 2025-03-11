@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.raju{
+    color: chartreuse;
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal; 
+    
+}
+.aaja, .maja{
+    color: red;
+}
+
+.hunny i {
+    font-size: 18px; /* Adjust the size if needed */
+    margin: 5px; /* Adds spacing */
+    transition: color 0.3s ease-in-out; /* Smooth transition */
+}
+
+
+.hunny[href*="instagram.com"] i {
+    color: black /* Instagram color */
+}
+.hunny[href*="instagram.com"]:hover i {
+    color: #ee5caf /* Darker Instagram color on hover */
+}
+
+.hunny[href*="facebook.com"] i {
+    color: black /* Facebook blue */
+}
+.hunny[href*="facebook.com"]:hover i {
+    color: blue/* Darker Facebook color on hover */
+}
+
+.hunny[href*="youtube.com"] i {
+    color: black; /* YouTube red */
+}
+.hunny[href*="youtube.com"]:hover i {
+    color: red /* Darker YouTube red on hover */
+}
+
+.hunny[href*="x.com"] i {
+    color: #000000; /* Twitter (X) black */
+}
+.hunny[href*="x.com"]:hover i {
+    color: rgb(7, 153, 211) /* Darker gray on hover */
+}
+
+
+
+.card-img-top {
+    height: 200px; /* Ensures all images are the same height */
+    object-fit: cover; /* Crops images to fit without distortion */
+    width: 100%; /* Ensures responsiveness */
+    border-radius: 5px; /* Optional: Gives smooth edges */
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    height: 100%; /* Ensures all cards have the same height */
+}
+
+.card-body {
+    flex-grow: 1; /* Makes the card body expand to equal height */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Ensures button stays at bottom */
+}
+
+.card-text {
+
+    font-family: "Saira", sans-serif;
+}
+
+
+
